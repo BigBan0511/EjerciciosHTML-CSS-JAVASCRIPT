@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IES>
+	<instituto>
+		<nombre>Domenico Scarlatti</nombre>
+		<web>https://www.domenicoscarlatti.es/</web>
+		<ciudad>Aranjuez</ciudad>
+		<estudios>
+			<e1>ESO</e1>
+			<e2>BACH</e2>
+			<e3>FP
+				<ciclo id="1" nombre="DAW" grado="superior" capacitacion="Desarrollador de aplicaciones web"></ciclo>
+				<ciclo id="2" nombre="DAM" grado="superior" capacitacion="Desarrollador de aplicaciones multiplataforma"></ciclo>
+				<ciclo id="3" nombre="Cocina" grado="superior" capacitacion="cocinero"></ciclo>
+			</e3>
+		</estudios>
+	</instituto>
+	<instituto>
+		<nombre>Calderón de la Barca</nombre>
+		<web>https://www.iescalderon.es/</web>
+		<ciudad>Pinto</ciudad>
+		<estudios>
+			<e1>ESO</e1>
+			<e2>BACH</e2>
+			<e3>FP
+				<ciclo id="4" nombre="DAM" grado="medio" capacitacion="Desarrollador de aplicaciones multiplataforma"></ciclo>
+				<ciclo id="5" nombre="ASIR" grado="superior" capacitacion="Administración de sistemas informáticos en red"></ciclo>
+				<ciclo id="6" nombre="SMR" grado="medio" capacitacion="sistemas microinformaticos en red"></ciclo>
+			</e3>
+		</estudios>
+	</instituto>
+</IES>

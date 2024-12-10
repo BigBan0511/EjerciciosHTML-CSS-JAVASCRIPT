@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE editor SYSTEM "DTD/Ejercicio4DTD.dtd">
+<editor>
+	<parrafo>Texto sin formato</parrafo>
+	<negrita>Texto en <cursiva>negrita y cursiva</cursiva>.</negrita>
+	<parrafo>Texto sin formato</parrafo>
+	<parrafo>Texto sin formato</parrafo>
+	<negrita>Texto en negrita.</negrita>
+	<cursiva>Texto en cursiva</cursiva>
+</editor>

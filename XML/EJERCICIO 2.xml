@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EscuelaBuceo>
+	<nombre lugarEscuela="Alicante">BuceoSX</nombre>
+	<actividad>
+		<lugar>Lobby</lugar>
+	</actividad>
+	<cursos>
+		<nombreCurso id="1" precio="25€" descripcion="Buceo a 5 metros de profundidad"></nombreCurso>
+		<nombreCurso id="2" precio="40€" descripcion="Buceo a 8 metros de profundidad"></nombreCurso>
+	</cursos>
+	<puntosBuceo nombrePunto="Bahamas" nivelRequerido="2"></puntosBuceo>
+	<puntosBuceo nombrePunto="Madrid" nivelRequerido="100"></puntosBuceo>
+</EscuelaBuceo>

@@ -1,0 +1,18 @@
+body{
+    color: #555;
+    margin: 0px;
+    background-color: #FFA;
+}
+
+web{
+    width: 960px;
+    margin: auto;
+}
+
+#cabecera{
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns="https://es.wikipedia.org/wiki/persona" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:schemaLocation="https://es.wikipedia.org/wiki/persona persona.xsd">
+    <persona idPersona="001">
+        <nombre>Juan</nombre>
+        <apellidos>Perez Rubiales</apellidos>
+        <dni>467839487P</dni>
+        <puestoTrabajo>Informatico</puestoTrabajo>
+        <descripcion>
+            <colorOjos>Verdes</colorOjos>
+            <altura>1.80</altura>
+            <peso>75</peso>
+            <colorCabello>Moreno</colorCabello>
+            <personalidad tipoDePersonalidad="Majete"> Soy una persona simpatica y agradable </personalidad>
+        </descripcion>
+        <edad>35</edad>
+    </persona>
+    <persona idPersona="002">
+        <nombre>Maria</nombre>
+        <apellidos>Aranda Gonzalez</apellidos>
+        <dni>4674809487P</dni>
+        <lugarEstudios>IES Virgen de la Paz</lugarEstudios>
+        <descripcion>
+            <altura>1.80</altura>
+            <peso>75</peso>
+            <personalidad tipoDePersonalidad="Agradable"> Soy una persona buena y soñadora. </personalidad>
+            <colorOjos>Verdes</colorOjos>
+            <colorCabello>Moreno</colorCabello>
+        </descripcion>
+        <edad>25</edad>
+    </persona>
+    <persona idPersona="003">
+        <nombre>Juanan</nombre>
+        <apellidos>Romero Jimenez</apellidos>
+        <dni>9674809487P</dni>
+        <puestoTrabajo>Policia</puestoTrabajo>
+        <descripcion>
+            <colorOjos>Negros</colorOjos>
+            <altura>1.88</altura>
+            <peso>80</peso>
+            <personalidad tipoDePersonalidad="Autoritario"> Me gusta el orden y la ley </personalidad>
+            <colorCabello>Castaño</colorCabello>
+        </descripcion>
+        <edad>25</edad>
+    </persona>
+</personas>

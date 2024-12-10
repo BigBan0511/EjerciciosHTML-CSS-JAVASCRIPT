@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE telefonos SYSTEM "Ejercicio8.dtd">
+<telefonos>
+    <telefono id_identificador="id_01">
+        <nSerieTerminal>123456789</nSerieTerminal>
+        <datosTerminal>
+            <marca>Apple</marca>
+            <modelo>iPhone 12</modelo>
+            <pantalla>
+                <tamaño>6.1 pulgadas</tamaño>
+                <tecnologia>OLED</tecnologia>
+                <densidadPuntos>460 ppi</densidadPuntos>
+            </pantalla>
+            <sO sistema="iOS"/>
+            <carcasa material="plastico">
+                <color>blanco</color>
+            </carcasa>
+        </datosTerminal>
+        <camaras>
+            <camara>
+                <resolucion>12 MP</resolucion>
+                <tipoCamara tipo="trasera"/>
+            </camara>
+        </camaras>
+    </telefono>
+    <telefono id_identificador="id_02">
+        <nSerieTerminal>987654321</nSerieTerminal>
+        <datosTerminal>
+            <marca>Samsung</marca>
+            <modelo>Galaxy S21</modelo>
+            <pantalla>
+                <tamaño>6.2 pulgadas</tamaño>
+                <tecnologia>AMOLED</tecnologia>
+                <densidadPuntos>421 ppi</densidadPuntos>
+            </pantalla>
+            <sO sistema="Android"/>
+            <carcasa material="plastico">
+                <color>negro</color>
+            </carcasa>
+        </datosTerminal>
+        <camaras>
+            <camara>
+                <resolucion>10 MP</resolucion>
+                <tipoCamara tipo="frontal"/>
+            </camara>
+        </camaras>
+    </telefono>
+    <telefono id_identificador="id_03">
+        <nSerieTerminal>135792468</nSerieTerminal>
+        <datosTerminal>
+            <marca>Xiaomi</marca>
+            <modelo>Redmi Note 10</modelo>
+            <pantalla>
+                <tamaño>6.43 pulgadas</tamaño>
+                <tecnologia>AMOLED</tecnologia>
+                <densidadPuntos>409 ppi</densidadPuntos>
+            </pantalla>
+            <sO sistema="Android"/>
+            <carcasa material="plastico">
+                <color>azul</color>
+            </carcasa>
+        </datosTerminal>
+        <camaras>
+            <camara>
+                <resolucion>48 MP</resolucion>
+                <tipoCamara tipo="frontal"/>
+            </camara>
+        </camaras>
+    </telefono>
+    <telefono id_identificador="id_04">
+        <nSerieTerminal>246813579</nSerieTerminal>
+        <datosTerminal>
+            <marca>Microsoft</marca>
+            <modelo>Lumia 950</modelo>
+            <pantalla>
+                <tamaño>5.2 pulgadas</tamaño>
+                <tecnologia>AMOLED</tecnologia>
+                <densidadPuntos>564 ppi</densidadPuntos>
+            </pantalla>
+            <sO sistema="WindowsPhone"/>
+            <carcasa material="plastico">
+                <color>gris</color>
+            </carcasa>
+        </datosTerminal>
+        <camaras>
+            <camara>
+                <resolucion>20 MP</resolucion>
+                <tipoCamara tipo="trasera"/>
+            </camara>
+        </camaras>
+    </telefono>
+</telefonos>

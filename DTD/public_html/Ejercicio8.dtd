@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT telefonos (telefono)+>
+    <!ELEMENT telefono (nSerieTerminal, datosTerminal, camaras)>
+        <!ELEMENT nSerieTerminal (#PCDATA)>
+        <!ELEMENT datosTerminal (marca, modelo, pantalla, sO, carcasa)>
+            <!ELEMENT marca (#PCDATA)>
+            <!ELEMENT modelo (#PCDATA)>
+            <!ELEMENT pantalla (tamaño,tecnologia, densidadPuntos)>
+                <!ELEMENT tamaño (#PCDATA)>
+                <!ELEMENT tecnologia (#PCDATA)>
+                <!ELEMENT densidadPuntos (#PCDATA)>
+            <!ELEMENT sO EMPTY>
+            <!ELEMENT carcasa (color)>
+                <!ELEMENT color (#PCDATA)>
+        <!ELEMENT camaras (camara)>
+            <!ELEMENT camara (resolucion, tipoCamara)>
+                <!ELEMENT resolucion (#PCDATA)>
+                <!ELEMENT tipoCamara EMPTY>
+
+<!-- ATRIBUTOS -->
+<!ATTLIST telefono id_identificador ID #REQUIRED>
+<!ATTLIST sO sistema CDATA #REQUIRED>
+<!ATTLIST carcasa material CDATA #FIXED "plastico">
+<!ATTLIST tipoCamara tipo CDATA #REQUIRED>
+<!ATTLIST sO sistema (iOS | Android | WindowsPhone) "Android">
+<!ATTLIST tipoCamara tipo (trasera | delantera) "delantera">

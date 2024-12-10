@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function escuchaClick(){
+                alert("Gracias por tu click");
+                var miDiv=document.getElementById("contenidos");
+                miDiv.style.backgroundColor="green";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Ejemplos de eventos</h1>
+        <input type="button" value="Ver mensaje" onclick="alert('Evento onclick puesto directamente en HTML. NO RECOMENDABLE')">
+        <br><br>
+        <div id="contenidos" style="width: 150px; height: 60px; border:thin solid silver; background-color: red"
+            onmouseover="this.style.backgroundColor='blue';"
+            onmouseout="this.style.backgroundColor='red';"
+            ondblclick="alert('Gracias por pinchar el botón.')">
+        </div>
+        <br><br>
+        <input id="elBoton" type="button" value="Otro mensaje" onclick="escuchaClick()"/>
+    </body>
+</html>

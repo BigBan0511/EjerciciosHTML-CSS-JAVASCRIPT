@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plantilla SYSTEM "Ejercicio5.dtd">
+<plantilla>
+    <trabajador idEmpleado="e01">
+        <nombre></nombre>
+        <sueldo></sueldo>
+        <posicion></posicion>
+    </trabajador>
+    <trabajador idEmpleado="e02" idJefe="e01">
+        <nombre></nombre>
+        <sueldo></sueldo>
+        <posicion></posicion>
+    </trabajador>
+    <trabajador idEmpleado="e03" idJefe="e01">
+        <nombre></nombre>
+        <sueldo></sueldo>
+        <posicion></posicion>
+    </trabajador>
+</plantilla>

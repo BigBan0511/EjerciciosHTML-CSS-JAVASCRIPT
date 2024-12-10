@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.google.com"
+           xmlns="http://www.google.com"
+           elementFormDefault="qualified">
+
+  <xs:element name="empresa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="cif" type="xs:string" use="required"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cotizacion" type="xs:decimal"/>
+        <xs:element name="beneficios">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:decimal">
+                <xs:attribute name="moneda" type="xs:string" use="required"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="presidente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="apellidos" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="dni" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

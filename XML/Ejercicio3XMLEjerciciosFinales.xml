@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE centros SYSTEM "centros.dtd">
+<centros>
+	<ies id="ies01">
+		<nombreCentro>Domenico Scarlatti</nombreCentro>
+		<localidad>Aranjuez</localidad>
+		<CP>xxxxx</CP>
+		<estudios>
+			<cicloFormativo idCiclo="c01">
+				<alumn numero="a001">
+					<nombreAlumno>Pablo</nombreAlumno>
+					<apellido>Motos</apellido>
+					<nota>6</nota>
+				</alumn>
+			</cicloFormativo>
+			<cicloFormativo idCiclo="c02">
+				<alumn numero="a045">
+					<nombreAlumno>María</nombreAlumno>
+					<apellido>Sánchez</apellido>
+				</alumn>
+			</cicloFormativo>
+		</estudios>
+	</ies>
+	<ies id="ies02">
+		<nombreCentro>Francisco Umbral</nombreCentro>
+		<localidad>Ciempozuelos</localidad>
+		<CP>28350</CP>
+		<estudios>
+			<cicloFormativo idCiclo="c01">
+				<alumn numero="a077">
+					<nombreAlumno>Carlos</nombreAlumno>
+					<apellido>Arguiñano</apellido>
+					<nota>10</nota>
+				</alumn>
+			</cicloFormativo>
+			<cicloFormativo idCiclo="c02">
+				<alumn numero="a125">
+					<nombreAlumno>Carlos</nombreAlumno>
+					<apellido>Alcaraz</apellido>
+				</alumn>
+			</cicloFormativo>
+		</estudios>
+	</ies>
+</centros>

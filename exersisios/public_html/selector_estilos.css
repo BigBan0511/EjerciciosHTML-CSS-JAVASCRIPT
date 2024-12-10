@@ -1,0 +1,24 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 10 oct 2023, 12:09:12
+    Author     : GSW1A9456853
+*/
+p{
+    font-weight: bold;
+    color: blue;
+}
+#titulo3{
+    color: red;
+}
+.boton{
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    border: 1px outset blue;
+    background-color: black;
+    color: white;
+    width: 200px;
+}

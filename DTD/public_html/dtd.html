@@ -1,0 +1,120 @@
+<!-- <!DOCTYPE elemento_raíz [reglas]> Interno, luego privado-->
+<!-- <!DOCTYPE elemento_raíz SYSTEM URL> Externo y privado -->
+<!-- <!DOCTYPE elemento_raiz SYSTEM URL [reglas] Mixto y privado -->
+<!-- <!DOCTYPE elemento_raiz PUBLIC FPI URL> Externo y público -->
+<!-- <!DOCTYPE elemento_raiz PUBLIC FPI URL [reglas] Mixto y público -->
+
+<!-- Cuando queremos obligar a que un xml use un dtd
+debemos incluir en la declaración del xml el
+atributo standalone=“no”. -->
+
+<!-- 
+    <?xml version="1.0"?>
+    <!DOCTYPE note [
+    <!ELEMENT note (to, from, heading, body) >
+    <!ELEMENT to (#PCDATA) >
+    <!ELEMENT from (#PCDATA) >
+    <!ELEMENT heading (#PCDATA) >
+    <!ELEMENT body (#PCDATA) >
+    ]>
+    <note>
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend</body> </note>
+-->
+
+<!-- 
+    <?xml version="1.0"?>
+    <!DOCTYPE note SYSTEM "note.dtd">
+    <note>
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+    </note> 
+-->
+
+<!-- 
+    <!ATTLIST nombre_elemento
+        nombre_atributo tipo_atributo
+        nombre_atributo tipo_atributo
+        …
+    > 
+-->
+
+<!-- <!ATTLIST nombre_elemento nombreAtributo tipoAtributo valor> -->
+
+<!-- VALORES
+
+#Un valor entre comillas. 
+Valor efectivo por defecto del atributo.
+
+#IMPLIED 
+Atributo de carácter opcional sin valor por defecto.
+
+#REQUIRED 
+Atributo de carácter obligatorio sin valor por defecto.
+
+#FIXED 
+De carácter obligatorio al cual 
+se le asigna un valor por defecto que es único. 
+
+-->
+
+<!-- TIPOATRIBUTO
+
+CDATA Caracteres sin etiquetas.
+
+ENTITY Nombre de una entidad (declarada en el dtd).
+
+ENTITIES Lista de entidades (declaradas en el dtd).
+
+ID Valor único para el atributo , debe ser valido en xml
+
+IDREF Algún otro elemento debe tener un ID igual a este IDREF
+
+IDREFS Multiples Ids de otros elementos.
+
+NMTOKEN Nombre sin espacios en blanco en su nterior
+
+NMTOKENS Lista de nombres sin espacios en blanco en su interior
+
+NOTATION Un nombre de notación, debe estar definido en el dtd.
+
+-->
+
+<!-- <!ENTITY nombre_entidad definicion_entidad> -->
+
+<!-- Los elementos con modelo vacio se declaran con
+la palabra clave EMPTY. 
+
+<!ELEMENT element-name EMPTY>
+-->
+
+<!-- Los elementos definidos con la palabra clave ANY
+pueden contener cualquier combinación de datos
+parseables. Se suelen usar como comodín cuando
+no se esta seguro… No deberían aparecer en el
+DTD final. 
+
+<!ELEMENT element-name ANY>
+-->
+
+<!-- Cuando los hijos se declaran en una secuencia
+separada por comas, estos hijos deben aparecer
+en el documento xml exactamente en el mismo
+orden… -->
+
+<!-- 
+    ? puede aparecer 0 o 1 vez.
+    * puede aparecer 0 o N veces.
+    + puede aparecer de 1 a N veces. 
+-->
+
+<!-- 
+    A,B           El elemento B debe aparecer después del A
+    
+    A | B         Aparecerá o bien el elemento A o el B 
+
+-->

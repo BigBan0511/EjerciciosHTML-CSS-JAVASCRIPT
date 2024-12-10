@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+    <name xmlns="https://en.wikipedia.org/wiki/Persona">
+        <title>Don</title>
+        <first>Juan</first>
+        <middle>García</middle>
+        <last>Pérez</last>
+    </name>
+    <position>Vicepresidente de Marketing</position>
+    <resume>
+        <html xmlns="https://www.w3schools.com/tags/tag_title.asp">
+            <head><title>Resumen de Juan García Pérez</title></head>
+            <body>
+                <h1>Juan García</h1>
+                <p>Juan es una buena persona, o no?</p>
+            </body>
+        </html>
+    </resume>
+</person>

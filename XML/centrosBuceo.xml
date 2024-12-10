@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escuelaBuceo>
+	<nombre>Blue Marlin Dive</nombre>
+	<pais>Indonesia</pais>
+	<localidad>Isla Gili air</localidad>
+	<cursos>
+		<curso id="OW">
+			<nombreCurso>Open Water Course</nombreCurso>
+			<precio>250€</precio>
+			<descripcion>Si quieres hacer un curso muy completo y obtener un título que te acredite como buceador en todo el mundo, este es el más adecuado. En el precio está incluido todo el equipo necesario, el material didáctico (Libros y tablas), las tasas de certificación y un seguro de buceo. No incluye certificado medico obligatorio.
+			</descripcion>
+		</curso>
+
+		<curso id="ADD">
+			<nombreCurso>Advance diver course</nombreCurso>
+			<precio>200€</precio>
+			<descripcion>Si quieres hacer un mas completo y obtener un título que te acredite como buceador avanzado en todo el mundo, este es el más adecuado. En el precio está incluido todo el equipo necesario, el material didáctico (Libros y tablas), las tasas de certificación y un seguro de buceo. No incluye certificado medico obligatorio.
+			</descripcion>
+		</curso>
+
+		<curso id="RD">
+			<nombreCurso>Rescue Diver Course</nombreCurso>
+			<precio>300€</precio>
+			<descripcion>Salva vidas como un buceador capaz de soportar las situaciones límite. No incluye certificado medico obligatorio.
+			</descripcion>
+		</curso>
+		
+	</cursos>
+	<spots>
+		<spot numero="1">
+			<nombre>Shark point</nombre>
+			<dificultad>OW</dificultad>
+		</spot>
+		<spot numero="2">
+			<nombre>Coral Reef</nombre>
+			<dificultad>OW</dificultad>
+		</spot>
+		<spot numero="3">
+			<nombre>Tourtle paradise</nombre>
+			<dificultad>ADD</dificultad>
+		</spot>
+	</spots>
+</escuelaBuceo>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro  xmlns="https://es.wikipedia.org/wiki/El_Senor_de_los_Anillos"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://es.wikipedia.org/wiki/El_Senor_de_los_Anillos libro.xsd">
+
+	<titulo>El señor de los anillos</titulo>
+	<indice>
+		<capitulo1 nombre="La comunidad de anillo">
+			Se reune la comunidad del anillo en Rivendel y llegan a la conclusion de que lo mejor es destruir el anillo unico.
+		</capitulo1>
+		<capitulo2 nombre="Las dos torres">
+			Se separa la comunidad por problemas con Boromir, acaban luchando contra las ordas de Saruman en el abismo de Helm, mientras Frodo se adentra en Mordor.
+		</capitulo2>
+		<capitulo3 nombre="El retorno del rey">
+			Gondor une fuerzas con Theoden para luchar contra el ejercito de Sauron y Frodo es capaz de destruir el anillo con ayuda de Gollum.
+		</capitulo3>
+		<capituloFinal nombre="The final chapter">
+			<intro>
+				Divertida a la par que interesante.
+			</intro>
+			<nudo>
+				No puedes dejar de leer pero sobran algunas descipciones.
+			</nudo>
+			<desarrollo>
+				Todo acaba bien, la Tierra Media es salvada!
+			</desarrollo>
+		</capituloFinal>
+	</indice>
+	<protagonista>
+		<nombre mote="El portador del anillo">Frodo</nombre>
+		<apellido>Bolson</apellido>
+	</protagonista>
+</libro>

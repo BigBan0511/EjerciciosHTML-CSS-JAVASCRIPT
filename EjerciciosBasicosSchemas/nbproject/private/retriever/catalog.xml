@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://es.wikipedia.org/wiki/Pizza" uri="es.wikipedia.org/wiki/pizza"/>
+    <system systemId="https://es.wikipedia.org/wiki/Poema" uri="es.wikipedia.org/wiki/poema"/>
+    <system systemId="https://es.wikipedia.org/wiki/S" uri="es.wikipedia.org/wiki/s"/>
+    <system systemId="https://es.wikipedia.org/wiki/Se" uri="es.wikipedia.org/wiki/se"/>
+    <system systemId="https://es.wikipedia.org/wiki/Cine" uri="es.wikipedia.org/wiki/cine"/>
+</catalog>

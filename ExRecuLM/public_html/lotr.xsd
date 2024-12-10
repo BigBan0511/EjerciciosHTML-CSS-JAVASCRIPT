@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
+    targetNamespace="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
+    elementFormDefault="qualified">
+    
+    <xs:complexType name="lotr">
+        <xs:sequence>
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="ubicacion" type="xs:string"/>
+                    <xs:element name="habitantes">
+                        <xs:complexType>
+                          <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                              <xs:attribute name="tipo" type="xs:string" use="optional"/>
+                            </xs:extension>
+                          </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="clima" type="xs:string"/>
+                    <xs:element name="personajesIlustres">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                    </xs:element>
+                    <xs:element name="esperanzaVida" type="xs:string" minOccurs="0"/>
+                </xs:sequence>
+                <xs:attribute name="id" type="xs:string" use="required"/>
+            </xs:complexType>
+            <xs:complexType name="origenType">
+                <xs:sequence>
+                  <xs:element name="nacimiento" type="xs:string"/>
+                  <xs:element name="familia" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="magiaType">
+                <xs:sequence>
+                  <xs:element name="poder" type="xs:string"/>
+                  <xs:element name="evolucion" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="heroeType">
+                <xs:sequence>
+                  <xs:element name="nombreHeroe" type="xs:string"/>
+                  <xs:element name="mision" type="xs:string"/>
+                  <xs:choice>
+                    <xs:element name="origen" type="origenType"/>
+                    <xs:element name="magia" type="magiaType"/>
+                  </xs:choice>
+                  <xs:element name="objetoMagico" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="lotr">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="regiones">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="lugar" type="lugarType" minOccurs="1" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="compania">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="heroe" type="heroeType" minOccurs="1" maxOccurs="6"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="xmlns" type="xs:anyURI" use="required"/>
+                  <xs:attribute name="xmlns:xsi" type="xs:anyURI" use="required"/>
+                  <xs:attribute name="xsi:schemaLocation" type="xs:anyURI" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+  </xs:schema>

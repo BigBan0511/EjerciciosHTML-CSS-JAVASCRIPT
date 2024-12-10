@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://www.google.com" uri="www.google.com"/>
+    <system systemId="http://www.w3.org" uri="www.w3.org/index"/>
+    <system systemId="http://www.w3.org/" uri="www.w3.org/index"/>
+    <system systemId="http://www.w3.org/1" uri="www.w3.org/1"/>
+    <system systemId="http://www.w3.org/2001/XML" uri="www.w3.org/2001/xml"/>
+    <system systemId="https://es.wikipedia.org/wiki/persona" uri="es.wikipedia.org/wiki/persona"/>
+</catalog>

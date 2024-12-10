@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restricciones xmlns="https://www.w3schools.com/xml/el_restriction.asp"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="https://www.w3schools.com/xml/el_restriction.asp Restricciones.xsd">
+    <edad>18</edad>
+    <nombre>Lucia</nombre>
+</restricciones>
+

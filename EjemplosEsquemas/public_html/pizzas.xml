@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzas xmlns="https://www.instagram.com/pizzeriamaniaranjuez/" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="https://www.instagram.com/pizzeriamaniaranjuez/ pizza.xsd">
+    
+    <pizza precio="8" nombre="Barbacoa">
+        <ingrediente nombre="Salsa Barbacoa"/>
+        <ingrediente nombre="Mozzarella"/>
+        <ingrediente nombre="Pollo"/>
+        <ingrediente nombre="Bacon"/>
+        <ingrediente nombre="Ternera"/>
+    </pizza>
+    <pizza nombre="Margarita" precio="6">
+        <ingrediente nombre="Tomate"/>
+        <ingrediente nombre="Jamón"/>
+        <ingrediente nombre="Queso"/>
+    </pizza>
+</pizzas>
+

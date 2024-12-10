@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT tienda (consola)+>
+<!ELEMENT consola (juego+,accesorio*)>
+<!ELEMENT juego ((((nombre, precio) | (precio, nombre))), descripcion, (idioma | descuento)?)>
+<!ELEMENT accesorio (nombre,precio,validoPara)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+<!ELEMENT validoPara (#PCDATA)>
+
+<!ATTLIST consola nombre CDATA #REQUIRED
+          id ID #REQUIRED>
+<!ATTLIST juego id ID #REQUIRED
+          idref IDREF #IMPLIED>
+<!ATTLIST accesorio tipo CDATA #IMPLIED
+          idref IDREF #IMPLIED>
+<!ATTLIST precio moneda CDATA #IMPLIED>
+<!ATTLIST consola nombre (playstation4|wii|XboxOne|playstation2) "wii" >
+<!ATTLIST accesorio tipo (3D | mando|volante) "mando" >
+<!ATTLIST precio moneda (euro| dolar| YEN) "euro" >

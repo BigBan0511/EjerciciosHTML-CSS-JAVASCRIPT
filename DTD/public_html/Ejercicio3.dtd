@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT contrato (clausula+,epilogo?)>
+<!ELEMENT clausula (epigrafe+)>
+<!ELEMENT epigrafe (#PCDATA)>
+<!ELEMENT epilogo (#PCDATA)>

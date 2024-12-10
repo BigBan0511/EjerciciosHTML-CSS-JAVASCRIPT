@@ -1,0 +1,11 @@
+div p:first-child{
+    color: red;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited{
+    color: red;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selva      xmlns="https://es.wikipedia.org/wiki/Selva"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="https://es.wikipedia.org/wiki/Selva selva.xsd">
+    <animal genero="Macho">
+        <nombre>Werthers</nombre>
+        <tipo>Pantera</tipo>
+        <color>Negro</color>
+        <edad>12</edad>
+     </animal>
+    <animal genero="Hembra">
+        <nombre>Bun</nombre>
+        <tipo>León</tipo>
+        <color>Marrón</color>
+        <edad>15</edad>
+     </animal>
+    <animal genero="Macho">
+        <nombre>Ifirt</nombre>
+        <tipo>Gato</tipo>
+        <color>Nranja</color>
+        <edad>12</edad>
+     </animal>
+</selva>

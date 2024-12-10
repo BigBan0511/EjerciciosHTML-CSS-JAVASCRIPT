@@ -1,0 +1,33 @@
+body{
+    margin: auto;
+}
+
+#bloque1{
+    border: solid 2px blue;
+    width: 600px;
+    margin: auto;
+}
+
+#bloque2{
+    border: solid 2px red;
+    width: 600px;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+#bloque3{
+    border: solid 2px red;
+    width: 600px;
+    margin: auto;
+    float: right;
+}
+
+#bloque4{
+    border: solid 2px blue;
+    width: 600px;
+    margin: auto;
+    float: left;
+}

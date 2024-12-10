@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ies centro="Virgen de la Paz">
+	<curso id="DAW">
+		<nombreCurso>Desarrollo de Aplicaciones Web</nombreCurso>
+		<nivel año="1º">
+			<alumno numero="5">
+				<nombreAlumno>Juan</nombreAlumno>	
+				<apellidoAlumno>Camacho Martín</apellidoAlumno>
+				<modulo id="LM">
+					<nombreModulo>Lenguaje de Marcas</nombreModulo>
+					<falta cantidad="1">
+						<fecha dia="Martes">12/01/2016</fecha>
+						<motivo>Médico</motivo>
+					</falta>
+					<falta cantidad="2">
+						<fecha dia="Jueves">14/01/2016</fecha>
+						<motivo>Injustificada</motivo>
+					</falta>
+				</modulo>
+				<modulo id="BBDD">
+					<nombreModulo>Base de Datos</nombreModulo>
+					<falta cantidad="1">
+						<fecha dia="Jueves">14/01/2016</fecha>
+						<motivo>Injustificada</motivo>
+					</falta>
+				</modulo>
+			</alumno>
+			<alumno numero="9" tipo="repetidor">
+				<nombreAlumno>Pedro</nombreAlumno>	
+				<apellidoAlumno>Martínez Pérez</apellidoAlumno>
+				<modulo id="BBDD">
+					<nombreModulo>Base de Datos</nombreModulo>
+					<falta cantidad="1">
+						<fecha dia="Miércoles">20/01/2016</fecha>
+						<motivo>Médico</motivo>
+					</falta>
+					<falta cantidad="2">
+						<fecha dia="Miércoles">20/01/2016</fecha>
+						<motivo>Médico</motivo>
+					</falta>
+				</modulo>
+			</alumno>
+		</nivel>
+		<nivel año="2º">
+			<alumno numero="2">
+				<nombreAlumno>Julian</nombreAlumno>	
+				<apellidoAlumno>López Carrascosa</apellidoAlumno>
+				<modulo id="IF">
+					<nombreModulo>Interafces</nombreModulo>
+					<falta cantidad="1">
+						<fecha dia="Miércoles">13/01/2016</fecha>
+						<motivo>Injustificada</motivo>
+					</falta>
+					<falta cantidad="2">
+						<fecha dia="Miércoles">13/01/2016</fecha>
+						<motivo>Injustificada</motivo>
+					</falta>
+				</modulo>
+			</alumno>
+			<alumno numero="7" tipo="repetidor">
+				<nombreAlumno>María</nombreAlumno>	
+				<apellidoAlumno>Fernandez Pinto</apellidoAlumno>
+				<modulo id="DWS">
+					<nombreModulo>Desarrollo Web Servidor</nombreModulo>
+					<falta cantidad="1">
+						<fecha dia="Lunes">18/01/2016</fecha>
+						<motivo>Viaje</motivo>
+					</falta>
+					<falta cantidad="2">
+						<fecha dia="Miércoles">20/01/2016</fecha>
+						<motivo>Viaje</motivo>
+					</falta>
+				</modulo>
+			</alumno>
+		</nivel>
+	</curso>
+</ies>

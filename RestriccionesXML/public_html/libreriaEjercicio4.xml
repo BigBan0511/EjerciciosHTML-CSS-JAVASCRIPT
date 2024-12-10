@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<libreria 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="libreriaEjercicio4.xsd">
+
+	<codigo>1263</codigo>
+	<direccion>Juan de Juni, 31</direccion>
+	<telefono>987263540</telefono>
+	<propietario>
+		<nombre>Juanito</nombre>
+		<telefono>653984725</telefono>
+	</propietario>
+	<libro>
+		<titulo>Cien años de soledad</titulo>
+		<autor>Gabriel Garcia Marquez</autor>
+		<formato>rustica</formato>
+		<publicacion>1967</publicacion>
+		<precio>23.5</precio>
+	</libro>
+</libreria>

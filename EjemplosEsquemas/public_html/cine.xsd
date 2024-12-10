@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<schema version="1.0"
+        xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="cine">
+        <complexType>
+            <sequence>
+                <element name="pelicula" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="titulo">
+                                <complexType>
+                                    <simpleContent>
+                                        <extension base="string">
+                                            <attribute name="idioma" type="string" use="optional"/>
+                                        </extension>
+                                    </simpleContent>
+                                </complexType>
+                            </element>
+                            <element name="director" type="string"/>
+                            <element name="estreno" type="string"/>
+                            <element name="reparto">
+                                <complexType>
+                                    <sequence>
+                                        <element name="actor" type="string" minOccurs="1" maxOccurs="unbounded"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                        </sequence>
+                        <attribute name="categoria" type="string" use="required"/>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>    
+</schema>

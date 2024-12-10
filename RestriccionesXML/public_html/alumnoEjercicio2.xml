@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<alumnos 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="alumnoEjercicio2.xsd">
+
+	<alumno dni="47592745G">
+		<nombre>Juan Garcia</nombre>
+		<direccion>
+			<calle>Avenida de la Fuente</calle>
+			<numero>6</numero>
+			<ciudad>Zafra</ciudad>
+			<provincia>Badajoz</provincia>
+		</direccion>
+		<telefono>918037283</telefono>
+		<telefono>627894833</telefono>
+	</alumno>
+	<alumno dni="73629384P">
+		<nombre>Jose Sanchez</nombre>
+		<direccion>
+			<calle>Calle Ancha</calle>
+			<numero>3</numero>
+			<ciudad>Zafra</ciudad>
+			<provincia>Badajoz</provincia>
+		</direccion>
+		<direccion>
+			<calle>Avenida Madrid</calle>
+			<numero>7</numero>
+			<ciudad>Puente Viejo</ciudad>
+			<provincia>Caceres</provincia>
+		</direccion>
+		<telefono>918037283</telefono>
+		<telefono>627894833</telefono>
+		<telefono>627894833</telefono>
+	</alumno>
+
+</alumnos>

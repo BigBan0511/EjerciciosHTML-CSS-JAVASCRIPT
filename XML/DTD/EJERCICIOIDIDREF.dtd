@@ -1,0 +1,7 @@
+<!ELEMENT plantilla (trabajador)*>
+<!ELEMENT trabajador (nombre, sueldo, posición)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT sueldo (#PCDATA)>
+<!ELEMENT posición (#PCDATA)>
+<!ATTLIST trabajador idEmpleado ID #REQUIRED
+						idJefe IDREF #REQUIRED>

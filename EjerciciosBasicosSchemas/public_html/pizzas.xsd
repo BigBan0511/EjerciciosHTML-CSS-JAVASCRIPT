@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           targetNamespace="https://es.wikipedia.org/wiki/Pizza">
+    <xs:element name="pizzas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pizza" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ingrediente" maxOccurs="unbounded" minOccurs="3">
+                                <xs:complexType>
+                                    <xs:attribute name="nombre" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="tipoDePizza" type="xs:string"></xs:attribute>
+                        <xs:attribute name="precio" type="xs:integer"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

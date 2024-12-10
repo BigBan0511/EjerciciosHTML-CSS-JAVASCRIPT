@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="alumnoEjercicio1.xsd"
+        dni="47592745G">
+
+    <nombre>Juan Garcia</nombre>
+    <direccion>
+            <calle>Avenida de la Fuente</calle>
+            <numero>6</numero>
+            <ciudad>Madrid</ciudad>
+            <provincia>Madrid</provincia>
+    </direccion>
+    <telefono>918037283</telefono>
+    <telefono>627894833</telefono>
+</alumno>

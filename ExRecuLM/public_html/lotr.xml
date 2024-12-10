@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<lotr xmlns="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings lotr.xsd">
+
+    <regiones>
+        <lugar id="r01">
+            <nombre>La Comarca</nombre>
+            <ubicacion>Noroeste de la Tierra Media</ubicacion>	
+            <habitantes tipo="medianos">Hobbits</habitantes>
+            <clima>Oceanico</clima>
+            <personajesIlustres>
+                    <nombre>Bilbo</nombre>
+                    <nombre>Sam</nombre>
+                    <nombre>Merry</nombre>
+                    <nombre>Frodo</nombre>
+            </personajesIlustres>
+        </lugar>
+        <lugar id="r02">
+            <nombre>Rivendel</nombre>
+            <ubicacion>Centro de la Tierra Media</ubicacion>	
+            <habitantes tipo="medianos">Elfos</habitantes>
+            <clima>Templado</clima>
+            <personajesIlustres>
+                    <nombre>Legolas</nombre>
+                    <nombre>Galadriel</nombre>
+                    <nombre>Celebron</nombre>
+            </personajesIlustres>
+            <esperanzaVida>Eterna</esperanzaVida>
+        </lugar>
+        <lugar id="r03">
+            <nombre>Mordor</nombre>
+            <ubicacion>Este de la Tierra Media</ubicacion>	
+            <habitantes>Orcos</habitantes>
+            <clima>Ventoso</clima>
+            <personajesIlustres>
+                    <nombre>Sauron</nombre>
+                    <nombre>Ella la araña</nombre>
+                    <nombre>Gollum</nombre>
+            </personajesIlustres>
+        </lugar>
+    </regiones>
+    <compania>
+        <heroe>
+            <nombreHeroe>Frodo</nombreHeroe>
+            <mision>Portador del anillo</mision>
+            <origen>
+                    <nacimiento codigo="r01">La comarca</nacimiento>
+                    <familia>Bolson</familia>
+            </origen>
+            <objetoMagico>Anillo unico</objetoMagico>
+        </heroe>
+        <heroe>
+            <nombreHeroe>Legolas</nombreHeroe>
+            <mision>Proteger a Frodo</mision>
+            <origen>
+                    <nacimiento codigo="r02">Rivendel</nacimiento>
+                    <familia>Elfica</familia>
+            </origen>
+            <objetoMagico>Arco</objetoMagico>
+        </heroe>
+        <heroe>
+            <nombreHeroe>Gandalf el gris</nombreHeroe>
+            <mision>Proteger a Frodo</mision>
+            <magia>
+                    <poder>Magia gris</poder>
+                    <evolucion>Gandalf el Blanco</evolucion>
+            </magia>
+            <objetoMagico>Baston</objetoMagico>
+        </heroe>
+    </compania>
+</lotr>

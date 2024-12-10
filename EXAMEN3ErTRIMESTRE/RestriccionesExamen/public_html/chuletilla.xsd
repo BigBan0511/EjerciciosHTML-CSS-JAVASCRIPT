@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <!--
+        En el siguiente ejemplo se muestra el elemento
+        edad, con una restricción para que su valor este
+        entre 0 y 120
+    -->
+    
+    
+    <xs:element name="age">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"></xs:minInclusive>
+                <xs:maxInclusive value="120"></xs:maxInclusive>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        Se puede limitar ciertos valores el contenido de un
+        elemento, en este ejemplo el elemento car, puede
+        adoptar cualquiera de los valores indicados pero
+        no otro diferente:
+    -->
+    
+    
+    <xs:element name="car">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Audi"></xs:enumeration>
+                <xs:enumeration value="Golf"></xs:enumeration>
+                <xs:enumeration value="BMW"></xs:enumeration>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        Podemos limitar el contenido de un elemento a un
+        carácter o a una serie de los mismos, en el
+        siguiente ejemplo el elemento debe tener un solo
+        carácter que este comprendido entre la a y la z
+        (minúsculas):
+    -->
+    
+    
+    <xs:element name="letter">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-z]"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        En este caso tiene que ajustarse a tres letras
+        mayúsculas entre la A y la Z:
+    -->
+    
+    
+    <xs:element name="initials">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Z] [A-Z] [A-Z]"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        Por último tenemos la posibilidad de mezclar
+        letras mayúsculas y minúsculas, en este caso 3
+        letras:
+    -->
+    
+    
+    <xs:element name="initials">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z] [a-zA-Z] [a-zA-Z]"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        Restricciones con numeros:
+    -->
+    
+    
+    <xs:element name="prodid">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:pattern value="[0-9] [0-9] [0-9] [0-9] [0-9] [0-9]"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        En este caso se aceptan dentro del elemento o 0 o un
+        numero indefinido de valores para entre la a-z para el
+        elemento
+    -->
+    
+    
+    <xs:element name="letter">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="(a-z)*"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        En este caso se aceptan pares de valores, mínimo uno y
+        máximo ilimitado, el primero debe ser un valor de a-z
+        minúsculas y el segundo A-Z mayúsculas, con lo que
+        valdría sToP pero no STOP o stop o sToPPp.
+    -->
+    
+    
+    <xs:element name="letter">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="([a-z] [A-Z])+"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        O un valor o el otro….
+    -->
+    
+    
+    <xs:element name="gender">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="male|female"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        Una combinación de 8 caracteres de letras mayúsculas,
+        minúsculas y números, para hacer un password…
+    -->
+    
+    
+    <xs:element name="password">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-zA-Z0-9] {8}"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        Restricciones de tamaño:
+        Si deseamos limitar el tamaño de un elemento
+        podemos hacerlo mediante mediante las constraints
+        length, maxLength y minLength, que indiccarán el
+        tamaño exacto de un elemento o el max y min tamaño
+        que este puede tener:
+    -->
+    
+    
+    <xs:element name="password">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:length value="8"></xs:length>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        Restricciones de tamaño:
+    -->
+    
+    
+    <xs:element name="password">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="5"></xs:minLength>
+                <xs:maxLength value="8"></xs:maxLength>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+    
+    <!--
+        Restricciones en atributos:
+        Si deseamos que un atributo tenga restricciones,
+        podemos hacerlo de la siguiente manera:
+    -->
+    
+    
+    <xs:attribute name="code">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Z] [A-Z]"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    
+    
+    <!--
+        Cuando queremos que un complexType tenga
+        además de texto, hijos, debemos declararlo de la
+        siguiente manera:
+    -->
+    
+    
+    <xs:element name="letter">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"></xs:element>
+                <xs:element name="orderid" type="xs:positiveInteger"></xs:element>
+                <xs:element name="shipdate" type="xs:date"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    
+    <!--
+        XSD ComplexType con contenido mixto
+    -->
+    
+    
+    <letter>
+        Dear Mr.<name>John Smith</name>.
+        Your order <orderid>1032</orderid>
+        will be shipped on <shipdate>2001-07-13</shipdate>.
+    </letter>
+    
+    
+    
+
+</xs:schema>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE teléfonos SYSTEM "telefono.dtd">
+<teléfonos>
+	<teléfono id="T001">
+		<numeroSerial>16541984</numeroSerial>
+		<datos_terminal>
+			<marca></marca>
+			<modelo></modelo>
+			<pantalla>
+				<tamaño></tamaño>
+				<tecnología></tecnología>
+				<densidadDePuntos></densidadDePuntos>
+			</pantalla>
+			<sistemaOperativo SO="Windows"></sistemaOperativo>
+			<carcasa material="">
+				<color></color>
+			</carcasa>
+		</datos_terminal>
+		<cámaras>
+			<cámara tipo="frontal">
+				<resolución></resolución>
+			</cámara>
+			<cámara tipo="trasera">
+				<resolución></resolución>
+			</cámara>
+			<cámara tipo="trasera">
+				<resolución></resolución>
+			</cámara>
+		</cámaras>
+	</teléfono>
+	<teléfono id="T002">
+		<numeroSerial>59479812</numeroSerial>
+		<datos_terminal>
+			<marca></marca>
+			<modelo></modelo>
+			<pantalla>
+				<tamaño></tamaño>
+				<tecnología></tecnología>
+				<densidadDePuntos></densidadDePuntos>
+			</pantalla>
+			<sistemaOperativo SO="Android"></sistemaOperativo>
+			<carcasa material="">
+				<color></color>
+			</carcasa>
+		</datos_terminal>
+		<cámaras>
+			<cámara tipo="frontal">
+				<resolución></resolución>
+			</cámara>
+			<cámara tipo="trasera">
+				<resolución></resolución>
+			</cámara>
+			<cámara tipo="trasera">
+				<resolución></resolución>
+			</cámara>
+			<cámara tipo="trasera">
+				<resolución></resolución>
+			</cámara>
+		</cámaras>
+	</teléfono>
+	<teléfono id="T003">
+		<numeroSerial>35748989</numeroSerial>
+		<datos_terminal>
+			<marca></marca>
+			<modelo></modelo>
+			<pantalla>
+				<tamaño></tamaño>
+				<tecnología></tecnología>
+				<densidadDePuntos></densidadDePuntos>
+			</pantalla>
+			<sistemaOperativo SO="iOS"></sistemaOperativo>
+			<carcasa material="">
+				<color></color>
+			</carcasa>
+		</datos_terminal>
+		<cámaras>
+			<cámara tipo="frontal">
+				<resolución></resolución>
+			</cámara>
+			<cámara tipo="trasera">
+				<resolución></resolución>
+			</cámara>
+			<cámara tipo="trasera">
+				<resolución></resolución>
+			</cámara>
+			<cámara tipo="trasera">
+				<resolución></resolución>
+			</cámara>
+			<cámara tipo="trasera">
+				<resolución></resolución>
+			</cámara>
+		</cámaras>
+	</teléfono>
+</teléfonos>

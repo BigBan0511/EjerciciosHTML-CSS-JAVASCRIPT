@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+//los xml y sus etiquetas y atributos son sensibles a las mayúsculas
+<atributo comillas="los atributos entre comillas"></atributo>
+// se deben usar entidades para ciertos caracteres
+//&lt; less than <
+//gt; greater than >
+//&amp; ampersand &
+//&apos; apostrofe ''
+//quot; comillas ""
+<!-- asi se comenta y no se - - deben dejar dos guiones juntos-->
+//los elementos deberían ser siempre metadatos, como un id o cosas del estilo
+
+//Los namespaces se utilizan para diferennciar elementos que tienen el mismo nombre
+//para esto se pueden usar sufijos que vendran predilectos por un nmaespace al principio
+//un namespace se define con xmlns
+
+<a:element xmlns:a="www.url.com/ejemplo1">
+    <a:son1></a:son1>
+</a:element>
+
+<b:element xmlns:b="www.url.com/ejemplo2">
+    <b:son2></b:son2>
+</b:element>
+
+//todos los hijos de un elemento con namespace deberan tener el mismo prefijo
+//la etiqueta xmlns junto al prefijo y el namespace tambien se pueden declarar en el root del xml
+//si en el root se pone tambien xmlns sin prefijo y con una URL se puede declarar un namespace por defecto
+//elnameSpace por defecto no afecta a los atributos
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT correo (mail+)>
+<!ELEMENT mail (para,cc?,cco?,asunto,cuerpo)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT cc (#PCDATA)>
+<!ELEMENT cco (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT cuerpo (#PCDATA)>

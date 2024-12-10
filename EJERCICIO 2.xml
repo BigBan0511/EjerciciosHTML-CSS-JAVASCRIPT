@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EscuelaBuceo>
+	<nombre></nombre>
+	<actividad>
+		<lugar></lugar>
+	</actividad>
+	<cursos>
+		<nombreCurso precio="25€" descripcion="Buceo a 5 metros de profundidad"></nombreCurso>
+	</cursos>
+	<puntosBuceo nombrePunto="Bahamas" nivelRequerido="2"></puntosBuceo>
+</EscuelaBuceo>

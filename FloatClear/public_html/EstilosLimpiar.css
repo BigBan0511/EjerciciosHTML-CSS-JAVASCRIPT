@@ -1,0 +1,14 @@
+#contenedor{
+    width: 300px;
+    border: 2px black solid;
+    min-height: 30px;
+    overflow: auto;
+}
+
+.flotante{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+}

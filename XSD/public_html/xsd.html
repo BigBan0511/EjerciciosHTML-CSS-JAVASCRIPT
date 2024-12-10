@@ -1,0 +1,84 @@
+<!-- xs:string: secuencia de caracteres xs:integer:numero entero xs:decimal:numero con parte decimal
+xs:date: fecha especÌfica del calendario gregoriano, en formato "YYYY-MM-DD=;
+xs:time: una instancia de tiempo que ocurre cada dÌa, en formato "hh:mm:ss"  -->
+
+<!-- Elementos simples. ( solo contienen datos simples NO hijos NO atributos -->
+
+<!-- .Elementos Complejos con hijos simples (Tienen hijos o atributo ) -->
+
+<!-- 
+The <all> indicator specifies that the child elements can appear in any order, 
+and that each child element must occur only once 
+
+When using the <all> indicator you can set the <minOccurs> indicator to 0 or 1 
+and the <maxOccurs> indicator can only be set to 1 
+(the <minOccurs> and <maxOccurs> are described later)
+
+<xs:element name="person">
+  <xs:complexType>
+    <xs:all>
+      <xs:element name="firstname" type="xs:string"/>
+      <xs:element name="lastname" type="xs:string"/>
+    </xs:all>
+  </xs:complexType>
+</xs:element>
+
+-->
+
+<!-- The <choice> indicator specifies that either one child element or another can occur -->
+
+<!-- The <sequence> indicator specifies that the child elements must appear in a specific order -->
+
+<!-- maxOccurs y minOccurs -->
+
+<!-- maxOccurs="unbounded" -->
+
+<!--
+
+Atributos en elementos complejos
+
+<xs:attribute name= type= />
+
+Despues de la declaracion de los
+subelementos
+
+Siempre tiene un tipo simple
+
+No impone un orden
+
+Si no se define un tipo, ser· del tipo: anySimpleType. ( Cualquier cadena de caracteres validos )
+
+Si no se dice nada es opcional
+
+Tiene a su vez tres atributos para restringir los valores: use, default y fixed 
+o use:
+ required: el atributo es obligatorio
+ optional: puede o no aparecer ( es
+el valor por defecto )
+
+o default:
+ valor por defecto del atributo
+ fixed: valor fijo. Puede aparecer o
+no, pero si aparece solo puede
+tener ese valor.  
+
+-->
+
+<!-- 
+
+Atributos en elementos simples
+1.El elemento simple pasa ser complejo. (
+xs:complexType )
+
+2.Se indica que su contenido es simple (
+xs:simpleContent )
+
+3.Se hace una extension sobre el tipo
+simple del elemento añadiendo el
+atributo )
+
+<xs:extension base==xs:string=>
+<xs:attribute name= />
+</xs:extension>  
+
+-->

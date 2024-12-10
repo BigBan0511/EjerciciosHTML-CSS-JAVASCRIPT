@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           targetNamespace="https://es.wikipedia.org/wiki/Selva">
+    <xs:element name="selva">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="animal" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"></xs:element>
+                            <xs:element name="tipo" type="xs:string"></xs:element>
+                            <xs:element name="color" type="xs:string"></xs:element>
+                            <xs:element name="edad" type="xs:string"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="genero"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

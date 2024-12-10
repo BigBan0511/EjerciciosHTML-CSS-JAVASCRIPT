@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mail	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	    xsi:noNamespaceSchemaLocation="mailNoNameSpaceSinPrefijos.xsd">
+	<de>zzz@gmail.com</de>
+	<para>vvv@hotmail.com</para>
+	<copia>vv2@hotmail.com</copia>
+	<copiaOculta>33</copiaOculta>
+	<asunto>Prueba</asunto>
+	<cuerpo>Estamos probando esquemas sin espacio de nombres</cuerpo>
+</mail>

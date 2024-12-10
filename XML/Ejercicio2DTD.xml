@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE correos SYSTEM "DTD/Ejercicio2DTD.dtd">
+<correos>
+	<correo>
+		<para>correo@gmail.com</para>
+		<cc></cc>
+		<cco></cco>
+		<asunto>BLABLABLALBALBLAB</asunto>
+		<cuerpo>Lorem ipsum</cuerpo>
+	</correo>
+	<correo>
+		<para>correo2@gmail.com</para>
+		<cc></cc>
+		<cco></cco>
+		<asunto>BLABLABLALBALBLAB2222222</asunto>
+		<cuerpo>Lorem ipsum 2</cuerpo>
+	</correo>
+</correos>

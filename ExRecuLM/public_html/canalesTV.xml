@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canalesTV SYSTEM "canalesTV.dtd">
+<canalesTV>
+    <canal id_canal="1">
+        <nombreCanal>Canal A</nombreCanal>
+        <programa id="p1">
+            <nombrePrograma>Noticias 24</nombrePrograma>
+            <presentador>
+                <nombrePresentador>Carlos</nombrePresentador>
+                <apellidosPresentador>Ramírez</apellidosPresentador>
+            </presentador>
+            <horario>08:00 - 09:00</horario>
+            <nivelDeAudiencia>Para todos los públicos</nivelDeAudiencia>
+        </programa>
+        <presentador>
+            <nombrePresentador>Marta</nombrePresentador>
+            <apellidosPresentador>García</apellidosPresentador>
+            <horario>09:00 - 12:00</horario>
+        </presentador>
+        <horario>08:00 - 12:00</horario>
+        <nivelDeAudiencia>Para adultos</nivelDeAudiencia>
+        <contenidos>
+            <telediarioMatinal>
+                <presentadorNoticias>
+                    <nombrePresentador>Carlos</nombrePresentador>
+                    <apellidosPresentador>Fernández</apellidosPresentador>
+                    <horario>08:00 - 09:00</horario>
+                </presentadorNoticias>
+                <director>
+                    <nombreDirector>Lucía</nombreDirector>
+                    <apellidosDirector>García</apellidosDirector>
+                </director>
+            </telediarioMatinal>
+        </contenidos>
+    </canal>
+    <canal id_canal="2">
+        <nombreCanal>Canal B</nombreCanal>
+        <programa id="p2">
+            <nombrePrograma>Entretenimiento Total</nombrePrograma>
+            <presentador>
+                <nombrePresentador>Laura</nombrePresentador>
+                <apellidosPresentador>Fernández</apellidosPresentador>
+            </presentador>
+            <horario>20:00 - 22:00</horario>
+            <nivelDeAudiencia>Para todos los públicos</nivelDeAudiencia>
+        </programa>
+        <presentador>
+            <nombrePresentador>José</nombrePresentador>
+            <apellidosPresentador>Pérez</apellidosPresentador>
+            <horario>16:00 - 20:00</horario>
+        </presentador>
+        <horario>16:00 - 22:00</horario>
+        <nivelDeAudiencia>Para adultos</nivelDeAudiencia>
+        <!-- Puedes agregar más programas, presentadores y contenidos aquí -->
+    </canal>
+    <canal id_canal="3">
+        <nombreCanal>Canal C</nombreCanal>
+        <programa id="p3">
+            <nombrePrograma>Deportes en Vivo</nombrePrograma>
+            <presentador>
+                <nombrePresentador>Javier</nombrePresentador>
+                <apellidosPresentador>Rodríguez</apellidosPresentador>
+            </presentador>
+            <horario>18:00 - 20:00</horario>
+            <nivelDeAudiencia>Para todos los públicos</nivelDeAudiencia>
+        </programa>
+        <presentador>
+            <nombrePresentador>Ana</nombrePresentador>
+            <apellidosPresentador>López</apellidosPresentador>
+            <horario>12:00 - 16:00</horario>
+        </presentador>
+        <horario>12:00 - 20:00</horario>
+        <nivelDeAudiencia>Para adultos</nivelDeAudiencia>
+        <!-- Puedes agregar más programas, presentadores y contenidos aquí -->
+    </canal>
+</canalesTV>

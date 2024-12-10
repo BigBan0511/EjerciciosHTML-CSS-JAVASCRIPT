@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE centros SYSTEM "Ejercicio7.dtd">
+<centros>
+    <ies id="id_001">
+        <nombreCentro>IES Domenico Scarlatti</nombreCentro>
+        <localidad>Aranjuez</localidad>
+        <CP>4324234F</CP>
+        <estudios>
+            <cicloFormativo id="id_100">
+                <alumno idAlumno="id_0100">
+                <nombreAlumno>Veronica</nombreAlumno>
+                <apellido>Pérez</apellido>
+                <nota>6,1</nota>
+                </alumno>
+            </cicloFormativo>
+            <cicloFormativo id="id_101">
+                <alumno idAlumno="id_0101">
+                <nombreAlumno>Martín</nombreAlumno>
+                <apellido>Castillos</apellido>
+                </alumno>
+                <alumno idAlumno="id_0102">
+                <nombreAlumno>Juan</nombreAlumno>
+                <apellido>Camacho</apellido>
+                </alumno>
+            </cicloFormativo>
+            <cicloFormativo id="id_102">
+                <alumno idAlumno="id_1102">
+                <nombreAlumno>Jorge</nombreAlumno>
+                <apellido>Pereira</apellido>
+                <nota/>
+                </alumno>
+            </cicloFormativo>
+        </estudios>
+    </ies>
+    <ies id="id_002">
+        <nombreCentro>IES Calderon de la Barca</nombreCentro>
+        <localidad>Pinto</localidad>
+        <estudios>
+            <cicloFormativo>
+                <alumno idAlumno="id_0201">
+                <nombreAlumno>José</nombreAlumno>
+                <apellido>Picaso</apellido>
+                </alumno>
+                <alumno idAlumno="id_0202">
+                <nombreAlumno>Claudia</nombreAlumno>
+                <apellido>Moreno</apellido>
+                </alumno>
+            </cicloFormativo>
+            <cicloFormativo id="id_201">
+                <alumno idAlumno="id_0211">
+                <nombreAlumno>Manuel</nombreAlumno>
+                <apellido>Torres</apellido>
+                <nota>7,8</nota>
+                </alumno>
+            </cicloFormativo>
+        </estudios>
+    </ies>
+    <ies id="id_003">
+        <nombreCentro>IES Las Salinas</nombreCentro>
+        <localidad>Seseña</localidad>
+        <CP>4324234P</CP>
+        <estudios>
+            <cicloFormativo id="id_300">
+                <alumno idAlumno="id_0301">
+                <nombreAlumno>Esteban</nombreAlumno>
+                <apellido>Conejo</apellido>
+                </alumno>
+                <alumno idAlumno="id_0302">
+                <nombreAlumno>Mario</nombreAlumno>
+                <apellido>Plata</apellido>
+                </alumno>
+            </cicloFormativo>
+            <cicloFormativo id="id_301">
+                <alumno idAlumno="id_0311">
+                <nombreAlumno>Perro</nombreAlumno>
+                <apellido>Gato</apellido>
+                <nota>9,4</nota>
+                </alumno>
+            </cicloFormativo>
+        </estudios>
+    </ies>
+    <ies id="id_004">
+        <nombreCentro>IES Margaritas Salas</nombreCentro>
+        <localidad>Seseña</localidad>
+        <estudios>
+            <cicloFormativo id="id_400">
+                <alumno idAlumno="id_0401">
+                <nombreAlumno>Monica</nombreAlumno>
+                <apellido>Fernandez</apellido>
+                </alumno>
+            </cicloFormativo>
+            <cicloFormativo id="id_401">
+                <alumno idAlumno="id_0411">
+                <nombreAlumno>Noelia</nombreAlumno>
+                <apellido>Hernandez</apellido>
+                </alumno>
+            </cicloFormativo>
+            <cicloFormativo id="id_402">
+                <alumno idAlumno="id_4111">
+                <nombreAlumno>Victor</nombreAlumno>
+                <apellido>Marin</apellido>
+                </alumno>
+            </cicloFormativo>
+        </estudios>
+    </ies>
+</centros>

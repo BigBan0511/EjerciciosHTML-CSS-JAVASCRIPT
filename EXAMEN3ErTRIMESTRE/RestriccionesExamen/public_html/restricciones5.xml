@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<discos 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="restricciones5.xsd">
+
+	<grupo nom="muse">
+		<nombre>Mathew</nombre>
+		<miembro>Dominic</miembro>
+		<miembro>Chris</miembro>
+		<miembro>Jhon</miembro>
+		<nacionalidad>Alemania</nacionalidad>
+		<web>www.muse.com</web>
+		<email>midireccion@ponprecioamimusica.org</email>
+	</grupo>
+	<grupo nom="feeder">
+		<nombre>Feeder</nombre>
+		<miembro>Gran</miembro>
+		<miembro>Taka</miembro>
+		<miembro>Jhon</miembro>
+		<nacionalidad></nacionalidad>
+		<calle>calle no existe</calle>
+		<localidad>menos aun</localidad>
+	</grupo>
+	<grupo nom="muse">
+		<nombre>No vendo ni un disco</nombre>
+		<miembro>Marta</miembro>
+		<miembro>Ramon</miembro>
+		<miembro>Pedro</miembro>
+	</grupo>
+	<disco precio="12.80">
+		<interprete nom="muse"/>
+		<titulo>Echo Park</titulo>
+		<discografia>Sony</discografia>
+		<anio>1980</anio>
+		<stock>5</stock>
+	</disco>
+	<disco precio="19.90">
+		<interprete nom="muse"/>
+		<titulo>Origin</titulo>
+		<discografia>SIRE</discografia>
+		<anio>2007</anio>
+		<stock>20</stock>
+	</disco>
+	<disco precio="19.90">
+		<interprete nom="muse"/>
+		<titulo></titulo>
+		<discografia>CBS</discografia>
+		<anio>1996</anio>
+		<stock>10</stock>
+	</disco>
+	<disco precio="13.30">
+		<interprete nom="muse"/>
+		<titulo>caca</titulo>
+		<anio>1980</anio>
+		<stock>23</stock>
+	</disco>
+	<disco precio="19.90">
+		<interprete nom="muse"/>
+		<titulo>Adios</titulo>
+		<anio>1987</anio>
+		<stock>10</stock>
+	</disco>
+
+</discos>
+

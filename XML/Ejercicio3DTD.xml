@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE contrato SYSTEM "DTD/Ejercicio3DTD.dtd">
+<contrato>
+	<clausulas>
+		<clausula>
+			<epigrafes>1ºEpigrafe</epigrafes>
+			<desarrollo>BLABLMEDAGEGOPEG</desarrollo>
+		</clausula>
+		<clausula>
+			<epigrafes>1ºEpigrafe</epigrafes>
+			<desarrollo>BLABLMEDAGEGOPEG</desarrollo>
+		</clausula>
+	</clausulas>
+	<epilogo>Epilogo contrato</epilogo>
+</contrato>

@@ -1,0 +1,7 @@
+/*El selector descendente se usa para que todos los elementos contenidos de otro
+elemento sean seleccionados, en este caso, no están afectados todos los p
+sino que solo los que estén dentro del div*/
+div> p{
+    color: red;
+}
+

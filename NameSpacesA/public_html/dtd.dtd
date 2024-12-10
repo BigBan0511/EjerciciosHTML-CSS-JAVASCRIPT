@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+// para declarar un dtd en un html se debe usar <!DOCTYPE ELEMENTO_RAIZ_XML SYSTEM "NOMBRE DTD">
+//DENTRO DEL DTD EN LOS ELEMENTOS se usará <!ELEMENT NOMBTE_ELEMENTO (ELEMENTOS_HIJO O #PCDATA)
+//TAMBIEN SE PUEDE UTILIZAR CDATA PERO ENTONCES NO PARSEARÁ EL CONTENIDO DEL ELEMENTO
+//se pondrá EMPTY en caso de que el elemento esté vacio
+//cuando los elementos hijo van en tre comas deben aparecer en ese orden en el xml
+//Si se usa | podrán alternar el orden
+// se usa ? cuando el elemento hijo aparece 0 o 1 veces
+// * cuando aparece 0 o n
+// + cuando aparece 1 o n
+// si solo se pone el nombre del elemento hijo aparecera obligatoriamente pero solo 1 vez
+// Al igual que para los elementos, para los atributos de estos se usará 
+
+//<!ATTLIST NOMBRE_ELEMENTO NOMBRE_ATRIBUTO TIPO ATRIBUTO VALOR>
+
+//Los tipos de atributos pueden ser:
+//CDATA para caracteres
+//ID para un valor unico
+//IDREF referencia al ID de otro atributo
+//Referencia a multiples ID de otros elementos
+
+//Los valores que se pueden usar son:
+//Un valor entre comillas para usarlo como valor por defecto
+//#IMPLIED para indicar que el atributo es opcional y no tiene valor por defecto
+//#REQUIRED para indicar que es obligatorio pero no tiene valor por defecto
+//#FIXED para indicar que es obligatorio y se usa el valor por defecto
+//Si se quieren dejar dos valores como posibles en vez de tipo se pone (valor1|valor2)
+
+
+

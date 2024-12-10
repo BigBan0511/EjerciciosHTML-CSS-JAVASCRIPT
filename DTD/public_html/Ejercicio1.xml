@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE correo SYSTEM "Ejercicio1.dtd">
+<correo>
+    <mail>
+        <para>Pablo Motos</para>
+        <cc></cc>
+        <cco></cco>
+        <asunto>F1</asunto>
+        <cuerpo>Invita al Nano al Hormiguero</cuerpo>
+    </mail>
+    <mail>
+        <para>Luis</para>
+        <cc></cc>
+        <cco></cco>
+        <asunto>IMPORTANTE</asunto>
+        <cuerpo>Me cago en tu puta madre</cuerpo>
+    </mail>
+</correo>

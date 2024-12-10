@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           targetNamespace="https://es.wikipedia.org/wiki/Cine">
+    <xs:element name="cine">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pelicula" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:attribute name="idioma"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="director" type="xs:string"></xs:element>
+                            <xs:element name="estreno" type="xs:string"></xs:element>
+                            <xs:element name="reparto" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="actor" type="xs:string" maxOccurs="unbounded"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="categoria" type="xs:string"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

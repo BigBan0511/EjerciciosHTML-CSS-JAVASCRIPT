@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poemas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="poemas.xsd">
+    <poema fecha="Abril de 1915" lugar="Granada">
+        <titulo>Alba</titulo>
+        <verso>Mi corazón oprimido</verso>
+        <verso>late junto a la alborada</verso>
+        <verso>el dolor de sus amores...</verso>
+    </poema>
+    <poema fecha="1903" lugar="Sevilla">
+        <titulo>Arde en tus ojos un misterio, virgen</titulo>
+        <verso>esquiva y compañera.</verso>
+        <verso>No sé si es odio o es amor la lumbre</verso>
+        <verso>inagotable de tu aliaba negra.</verso>
+    </poema>
+</poemas>

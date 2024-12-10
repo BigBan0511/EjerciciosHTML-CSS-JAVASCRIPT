@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IES>
+	<ciclos>
+		<ciclo id="1" nombreCiclo="1ºDesarrollo de Aplicaciones Web (DAW)">
+			<nombreAlumno num="5" tipo="nada">Juan
+				<apellidos>Camacho Martin
+					<Asignatura nombreAsignatura="LM">
+						<faltas motivo="Medico">Martes 12 Enero 2016</faltas>
+					</Asignatura>
+					<Asignatura nombreAsignatura="LM">
+						<faltas motivo="Injustificada">Jueves 14 Enero 2016</faltas>
+					</Asignatura>
+					<Asignatura nombreAsignatura="BBDD">
+						<faltas motivo="Injustificada">Jueves 14 Enero 2016</faltas>
+					</Asignatura>
+				</apellidos>
+			</nombreAlumno>
+			<nombreAlumno num="9" tipo="repetidor">Pedro
+				<apellidos>Martinez Perez
+					<Asignatura nombreAsignatura="BBDD">
+						<faltas motivo="Medico">Miercoles 20 Enero 2016</faltas>
+					</Asignatura>
+					<Asignatura nombreAsignatura="BBDD">
+						<faltas motivo="Medico">Miercoles 20 Enero 2016</faltas>
+					</Asignatura>
+				</apellidos>
+			</nombreAlumno>
+		</ciclo>
+		<ciclo id="2" nombreCiclo="2ºDesarrolo de Aplicaciones Web">
+			<nombreAlumno num="2" tipo="nada">Julian
+				<apellidos>Lopez Carrascosa
+					<Asignatura nombreAsignatura="IF">
+						<faltas motivo="Injustificada">Miercoles 13 Enero 2016</faltas>
+					</Asignatura>
+					<Asignatura nombreAsignatura="IF">
+						<faltas motivo="Injustificada">Miercoles 13 Enero 2016</faltas>
+					</Asignatura>
+				</apellidos>
+			</nombreAlumno>
+			<nombreAlumno num="7" tipo="repetidor">Maria
+				<apellidos>Fernandez Pinto
+					<Asignatura nombreAsignatura="DWS">
+						<faltas motivo="Viaje">Lunes 18 Enero 2016</faltas>
+					</Asignatura>
+					<Asignatura nombreAsignatura="DWS">
+						<faltas motivo="Viaje">Miercoles 20 Enero 2016</faltas>
+					</Asignatura>
+				</apellidos>
+			</nombreAlumno>
+		</ciclo>
+	</ciclos>
+</IES>

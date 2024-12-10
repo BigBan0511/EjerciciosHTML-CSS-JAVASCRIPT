@@ -1,0 +1,18 @@
+<!ELEMENT teléfonos (teléfono)*>
+	<!ELEMENT teléfono (numeroSerial, datos_terminal, cámaras)>
+		<!ELEMENT numeroSerial (#PCDATA)>
+		<!ELEMENT datos_terminal (marca, modelo, pantalla, sistemaOperativo, carcasa)>
+			<!ELEMENT marca (#PCDATA)>
+			<!ELEMENT modelo (#PCDATA)>
+			<!ELEMENT pantalla (tamaño, tecnología, densidadDePuntos)>
+				<!ELEMENT tamaño (#PCDATA)>
+				<!ELEMENT tecnología (#PCDATA)>
+				<!ELEMENT densidadDePuntos (#PCDATA)>
+			<!ELEMENT sistemaOperativo (#PCDATA)>
+			<!ELEMENT carcasa (color)>
+				<!ELEMENT color (#PCDATA)>
+		<!ELEMENT cámaras (cámara)*>
+			<!ELEMENT cámara (resolución)>
+				<!ELEMENT resolución (#PCDATA)>
+
+<!ATTLIST 

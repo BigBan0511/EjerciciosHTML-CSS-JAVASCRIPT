@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+	<element name="mail">
+		<complexType>
+			<sequence>
+				<element name="de" type="string"/>
+				<element name="para" type="string"/>
+				<element name="copia" type="string"/>
+				<element name="copiaOculta" type="string"/>
+				<element name="asunto" type="string"/>
+				<element name="cuerpo" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

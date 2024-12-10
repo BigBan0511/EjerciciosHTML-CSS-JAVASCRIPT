@@ -1,0 +1,25 @@
+.boton{
+    border: 1px solid blue;
+    width: 200px;
+    height: 30px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*indica cuando pase por encima de un elemento*/
+.boton:hover{
+    background: yellow;
+    color: red;
+}
+
+/*indica cuando pulse un elemento*/
+.boton:active{
+    background: blue;
+}
+
+/*indica cuando escriba en un elemento*/
+.Text:focus{
+    border: 3px solid yellow;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plantilla SYSTEM "EJERCICIOIDIDREF.dtd">
+<plantilla>
+	<trabajador idEmpleado="p1">
+		<nombre></nombre>
+		<sueldo></sueldo>
+		<posición></posición>
+	</trabajador>
+	<trabajador idEmpleado="p2" idJefe="p1">
+		<nombre></nombre>
+		<sueldo></sueldo>
+		<posición></posición>
+	</trabajador>
+	<trabajador idEmpleado="p3" idJefe="p1">
+		<nombre></nombre>
+		<sueldo></sueldo>
+		<posición></posición>
+	</trabajador>
+	<trabajador idEmpleado="p4" idJefe="p1">
+		<nombre></nombre>
+		<sueldo></sueldo>
+		<posición></posición>
+	</trabajador>
+</plantilla>

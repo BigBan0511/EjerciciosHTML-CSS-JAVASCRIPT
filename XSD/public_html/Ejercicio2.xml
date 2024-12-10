@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa    xmlns="http://www.google.com"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.google.com Ejercicio2.xsd">
+    <nombre cif="AAH45">Apple</nombre>
+    <cotizacion>5</cotizacion>
+    <beneficios moneda="Euro">1500</beneficios>
+    <presidente dni="46789635P">
+        <nombre>Juan</nombre>
+        <apellidos>Martinez Ruiz</apellidos>
+    </presidente>
+</empresa>

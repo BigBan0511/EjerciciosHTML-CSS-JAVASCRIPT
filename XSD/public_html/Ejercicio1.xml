@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa    xmlns="http://www.google.com"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.google.com Ejercicio1.xsd"
+            cif="4433jan">
+    Esto es una empresa
+</empresa>

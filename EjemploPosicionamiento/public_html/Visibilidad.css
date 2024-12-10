@@ -1,0 +1,11 @@
+h1{
+    /*visibility hidden hace que un elemento desaparezca pero
+    sique ocupando su sitio*/
+    visibility: hidden;
+    /*display none hace que el elemento desaparezca y deja de ocupar su sitio*/
+    display: none;
+}
+
+h2{
+    display: inline;
+}

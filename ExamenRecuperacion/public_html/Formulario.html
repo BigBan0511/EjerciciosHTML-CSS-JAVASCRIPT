@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilosRecuperacion.css">
+    </head>
+    <body id="bodyFormulario">
+        <div id="formulario">
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+
+                <label for="edad">Edad:</label>
+                <input type="range" id="edad" name="edad" min="1" max="100">
+                
+                <hr>
+                
+                <label for="nombreUsuario">Nombre de Usuario:</label>
+                <input type="text" id="nombreUsuario" name="nombreUsuario" required>
+
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+
+                <label for="confirmarContrasena">Confirmar Contraseña:</label>
+                <input type="password" id="confirmarContrasena" name="confirmarContrasena" required>
+                
+                <hr>
+                
+                <label for="tipoUsuario">Tipo de Usuario:</label>
+                <select id="tipoUsuario" name="tipoUsuario">
+                  <option value="comprador">Comprador</option>
+                  <option value="vendedor">Vendedor</option>
+                  <option value="trabajador">Trabajador</option>
+                </select>
+
+                <label for="modalidadPago">Modalidad de Pago:</label>
+                <select id="modalidadPago" name="modalidadPago">
+                  <option value="tarjeta">Tarjeta de Crédito</option>
+                  <option value="paypal">PayPal</option>
+                  <option value="transferencia">Transferencia Bancaria</option>
+                </select>
+
+                <label for="numeroTarjeta">Número de Tarjeta:</label>
+                <input type="text" id="numeroTarjeta" name="numeroTarjeta">
+                
+                <hr>
+                
+                <label><b>¿Estaría interesado en recibir información sobre los siguientes productos?</b></label>
+                <div>
+                    <input type="checkbox" name="Artesanía antigua" id="producto1">
+                    <label for="producto1">Artesanía antigua</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Joyería étnica" id="producto2">
+                    <label for="producto2">Joyería étnica</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Productos de oro" id="producto3">
+                    <label for="producto3">Productos de oro</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Productos de plata" id="producto4">
+                    <label for="producto4">Productos de plata</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Productos ecológicos" id="producto5">
+                    <label for="producto5">Productos ecológicos</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Esencias naturales" id="producto6">
+                    <label for="producto6">Esencias naturales</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Productos de belleza" id="producto7">
+                    <label for="producto7">Productos de belleza</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Cerveza artesanal" id="producto8">
+                    <label for="producto8">Cerveza artesanal</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Instrumentos musicales" id="producto9">
+                    <label for="producto9">Instrumentos musicales</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Textil para vestir" id="producto10">
+                    <label for="producto10">Textil para vestir</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Complementos de moda" id="producto11">
+                    <label for="producto11">Complementos de moda</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Textil para el hogar" id="producto12">
+                    <label for="producto12">Textil para el hogar</label>
+                </div>
+                
+                <hr>
+                
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios"></textarea>
+                <hr>
+                <p><b>Revise sus datos antes de confirmar<b/></p>
+                <button type="submit">Confirmar</button>
+                <button type="button" class="cancel">Cancelar</button>
+            </form>
+        </div>
+    </body>
+</html>

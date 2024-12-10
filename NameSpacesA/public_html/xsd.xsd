@@ -1,0 +1,120 @@
+//el xsd sigue los estánadres del W3C colgados en
+// http://www.w3.org/XML/Schema
+
+//la sintaxis es XML
+//Requieren de namespace
+// son mejores que los dtd
+//soportan validaciones más complejas
+
+//en el documento se definen los elementos, los atributos, los elementos compuestos y los tipos de datos, 
+//ademas de decir que es obligatorio y que opcional
+
+//la raíz del documento se denomina Schema, donde se declara el namespace
+
+//La manera más comun de crear un xsd es con namespace y prefijos a la vez:
+//xsd:
+<xs:Schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            <!--esto indicara que se siguen las pautas del xsd-->
+            targetNamespace="http://www.google.com"
+            <!--El namespace referenciado en el xml-->
+            xmlns="http://www.w3school.com"
+            <!--El namespace por defecto del xsd-->
+            elementFormDefault="qualified">
+
+//xml:
+
+<elementoRaiz   xmlns="http://www.google.com"
+                <!--namespace del xml-->
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                <!--Esto indica que es una instancia de un xsd-->
+                xsi:schemaLocation="http://www.google.com nombre_xsd.xsd">
+                <!--namespace del xml y nombre del esquema para aplicarlo-->
+
+//en este metodo todos los elementos del xsd tendrán el prefijo xs:
+
+//la segunda manera es usando solo los prefijos y sin namespace:
+//xsd:
+<xs:Schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"></xs:Schema>
+
+//xml:
+
+<elementoRaiz   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="nombre_xsd.xsd"></elementoRaiz>
+    
+//en este caso los elementos del xsd seguirán teniendo que utilizar los prefijos xs
+    
+//en el tercer caso no se usan tampoco los prefijos, solo el namespace por defecto:
+    //xsd:
+<Schema  xmlns="http://www.w3.org/2001/XMLSchema">
+    </Schema>
+    
+    //xml:
+
+<elementoRaiz   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="nombre_xsd.xsd">
+    </elementoRaiz>
+    
+//en este caso la diferencia sera que en el schema no habrá que añadir el prefijo xs: a elementos y atributos
+
+
+//elemetos simples son aquellos que no contienen más elementos, es decir, solo datos
+//su sintaxis es:
+//<xs:element name="nombre_elemento" type="xs:tipo_elemento"/>
+// los tipos de datos mas famosos son:
+//xs:string
+//xs:decimal
+//xs:integer(int)
+//xs:boolean
+//xs:date
+//xs:time
+//tambien se les puede dar un valor por defecto o fijo:
+//<xs:element name="nombre_elemento" type="xs:tipo_elemento" default="defecto"/>
+//<xs:element name="nombre_elemento" type="xs:tipo_elemento" fixed="fijado"/>
+//los atributos se hacen de la misma manera con la excepcion de que solo un elemento complejo los puede tener
+//tambien se puede hacer que sean de uso obligatorio
+//<xs:attribute name="nombre_elemento" type="xs:tipo_elemento" use="required"/>
+
+//en caso de que se quiera definir un elemento sin hijos pero con atributos:
+<xs:element name="empresa">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="cif” type="xs:string"/>
+            </xs:extension>
+        </xs:simpleContent>
+     </xs:complexType>
+</xs:element>
+
+//en caso de que haya un elemento con hijos y atributos:
+<xs:element name="pedido">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+       <xs:element name="notas" type="xs:string"
+        minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="idorden" use="required" />
+   </xs:complexType>
+</xs:element>
+
+//los indicadores se usan para dar orden
+//el indicador all mostrará que los elementos hijo pueden aparecer en cualquier orden pero solo una vez:
+<xs:all>
+        <xs:element name="titulo" type="xs:string"/>
+       <xs:element name="notas" type="xs:string"/>
+</xs:all>
+
+//el indicador choice mostrará que solo puede aparecer uno de los elementos hijo
+<xs:choice>
+        <xs:element name="titulo" type="xs:string"/>
+       <xs:element name="notas" type="xs:string"/>
+</xs:choice>
+
+//sequence indica que aparecen en el xml en mismo orden que en el xsd
+<xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+       <xs:element name="notas" type="xs:string"/>
+</xs:sequence>
+
+//minOccurs y maxOccurs indican el número máximo y mínimo de veces que puede aparecer un elemento, 
+//si no se quiere poner limite será unbounded

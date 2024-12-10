@@ -1,0 +1,4 @@
+<!ELEMENT editor (parrafo|negrita|cursiva)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT negrita (parrafo|cursiva)>
+<!ELEMENT cursiva (parrafo|negrita)>

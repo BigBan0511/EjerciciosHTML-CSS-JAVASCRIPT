@@ -1,0 +1,15 @@
+<!ELEMENT centros (ies+)>
+<!ELEMENT ies (nombreCentro, localidad, CP, estudios)>
+<!ELEMENT nombreCentro (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT CP (#PCDATA)>
+<!ELEMENT estudios (cicloFormativo+)>
+<!ELEMENT cicloFormativo (alumn)>
+<!ELEMENT alumn (nombreAlumno, apellido, nota)>
+<!ELEMENT nombreAlumno (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT nota (#PCDATA)?>
+
+<!ATTLIST ies id ID #REQUIRED>
+<!ATTLIST cicloFormativo idCiclo CDATA #IMPLIED>
+<!ATTLIST alumn numero ID #REQUIRED>

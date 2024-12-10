@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="poemas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="poema" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="verso" type="xs:string" minOccurs="3" maxOccurs="3"/>
+                        </xs:sequence>
+                        <xs:attribute name="fecha" type="xs:string" use="required"/>
+                        <xs:attribute name="lugar" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

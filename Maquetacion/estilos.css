@@ -1,0 +1,145 @@
+body
+{
+	font-family:Verdana, Arial, Georgia;
+	background-color:#90305A;
+	color:#90305A;
+	/*background-image: url("virgenPaz.gif");*/
+}
+
+#web		
+{
+	width:960px;	
+	margin:0 auto;	    
+}
+
+#cabecera		
+{
+	height:100px;
+	background-color:#6C1239;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#cabecera h1
+{
+	width: 80%;
+	float:right;
+	text-align: center;
+	color: white;
+}
+
+#logo
+{
+	float: left;
+	text-align: left;
+	height: 100px;
+	width: 20%;
+}
+
+#logoVirgenPaz
+{
+	height: 100px;
+	width: 100px;
+	margin-left: 30px;
+}
+
+#barraHorizontal
+{
+	height:40px;
+	background-color:#48001F;
+	border:1px #48001F outset;
+	padding-left:20px;
+}
+
+.menuHorizontal
+{
+	list-style-type: none;
+	margin-left: 200px;
+	margin-top: 8px;
+}
+
+.menuHorizontal li
+{
+	background-color:#6C1239;
+	border: 1px solid black;
+	display: inline-block;
+	height: 20px;
+	padding: 2px;
+	margin-left:30px;
+}
+
+.menuHorizontal li:hover
+{
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
+
+#barraLateral
+{
+	width: 20%;
+	background-color:#6C1239;
+	min-height:400px;		
+	float:left;	
+}
+
+.menuVertical
+{
+	background-color:#6C1239;
+	list-style-type:none;
+	padding-left:0px;
+}
+
+.menuVertical li
+{
+	height:30px;
+	border:1px inset black;
+	text-align:center;
+	padding-top:10px;
+	margin-top:10px;
+}
+
+.menuVertical  li:hover
+{
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
+
+#contenido
+{
+	width: 80%;
+	float: right;
+	background-color: white;
+	height: 400px;
+	position: relative;
+}
+
+.columna1
+{
+	width: 45%;
+	float: left;
+	margin-left:20px;
+}
+
+.columna2
+{
+	width: 45%;
+	float: left;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#pie
+{
+	height: 40px;
+	background-color:#48001F;
+	text-align: center;
+	color: white;
+	clear: both;
+	padding-top: 2px;
+	padding-bottom:2px; 
+}
+
+

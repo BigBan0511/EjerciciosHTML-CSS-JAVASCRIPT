@@ -1,0 +1,54 @@
+/* Coge todas las listas, la principal y las secundarias */
+ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+/* Aplica a todo el menú */
+#menu{
+    width: 200px;
+}
+
+/* Sólo afecta a los hijos directos de la id menu */
+#menu>li{
+    background-color: #4bcdc8;
+    border: solid 1px #4bcdc8;
+    padding: 5px;
+    position: relative;
+}
+
+/* Esta regla afecta a los elementos secundarios de cada categoría (ul) */
+.submenu{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    display: none;
+}
+
+/* Solo afecta a los elementos li hijos directos de submenu */
+.submenu>li{
+    background-color: #189a96;
+    border: 1px outset #189a96;
+    width: 180px;
+    padding: 2px;
+}
+
+/* Reacciona a cualquier hijo li del menu, da igual el nivel */
+#menu li:hover{
+    background-color: #086461;
+    color: white;
+    cursor: pointer;
+}
+
+/* Cuando pase el raton por encima de los elementos li,
+hijos*/
+#menu>li:hover ul{
+    display: block;
+}
+
+a:link, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+}

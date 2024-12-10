@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzas    xmlns="https://es.wikipedia.org/wiki/Pizza"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="https://es.wikipedia.org/wiki/Pizza pizzas.xsd">
+    
+    <pizza tipoDePizza="Barbacoa" precio="8">
+        <ingrediente nombre="Salsa Barbacoa"/>
+        <ingrediente nombre="Mozzarella"/>
+        <ingrediente nombre="Pollo"/>
+        <ingrediente nombre="Bacon"/>
+        <ingrediente nombre="Ternera"/>
+    </pizza>
+    <pizza tipoDePizza="Margarita" precio="6">
+        <ingrediente nombre="Tomate"/>
+        <ingrediente nombre="Jamón"/>
+        <ingrediente nombre="Queso"/>
+    </pizza>
+</pizzas>

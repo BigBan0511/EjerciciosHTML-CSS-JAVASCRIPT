@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Ejemplo CSS Mezclado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="EjemploEstilos.css" rel="stylesheet">
+        <style>
+            /* Al tener una hoja de estilos interna y otra externa
+            si hay algún elemento que aparezca en las 2 hojas de estilos
+            ,prevalece el estilo interno*/
+            p{
+                font-size: 20px;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Ejemplo de CSS mezclado</h1>
+        <!-- Este h2 debería ser blue pero como en la hoja de estilos externa
+        He dicho que el color:brown erea !important prevalece-->
+        <h2 style="color:blue">El estilo externo es el menos "potente"</h2>
+        <h2>Seguido por el estilo interno</h2>
+        <h2>Finalmente el estilo en línea es el que prevalece</h2>
+        <p>Este texto está afectado por el estilo interno</p>
+        <p style="text-align: left">Este texto está afectado por estilo en línea</p>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+#cabecera{
+    height: 120px;
+    background-color: #03436A;
+}
+
+#contenedor{
+    background-color: #64A8D1;
+    overflow: auto;
+}
+
+.columna{
+    width: 30%;
+    float: left;
+    background-color: #FFD940;
+    height: 450px;
+    margin: 20px;
+}
+
+#pie{
+    background-color: #03436A;
+    height: 50px;
+}

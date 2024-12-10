@@ -1,0 +1,18 @@
+<!ELEMENT tienda (consola+)>
+<!ELEMENT consola (juego+, accesorio*)>
+<!ELEMENT juego (((nombre | precio) | (precio, nombre)), descripcion, (idioma | descuento)?)>
+<!ELEMENT accesorio (nombre, precio, validoPara)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+<!ELEMENT validoPara (#PCDATA)>
+
+<!ATTLIST consola nombre CDATA #REQUIRED
+					id ID #REQUIRED>
+<!ATTLIST juego id ID #REQUIRED
+				idref IDREF #REQUIRED>
+<!ATTLIST accesorio tipo CDATA #IMPLIED
+					idref IDREF #REQUIRED>
+<!ATTLIST precio moneda CDATA #IMPLIED>

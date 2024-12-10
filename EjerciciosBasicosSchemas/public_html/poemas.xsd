@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           targetNamespace="https://es.wikipedia.org/wiki/Poema">
+    <xs:element name="poemas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="poema" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"></xs:element>
+                            <xs:element name="verso" type="xs:string" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="fecha" type="xs:string"></xs:attribute>
+                        <xs:attribute name="lugar" type="xs:string"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

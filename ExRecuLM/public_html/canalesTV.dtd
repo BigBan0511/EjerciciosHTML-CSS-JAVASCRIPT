@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT canalesTV (canal+)>
+<!ELEMENT canal (nombreCanal, programa+, presentador, horario, nivelDeAudiencia, contenidos?)>
+<!ATTLIST canal id_canal CDATA #REQUIRED>
+<!ELEMENT nombreCanal (#PCDATA)>
+<!ELEMENT programa (nombrePrograma, presentador, horario, nivelDeAudiencia)>
+<!ATTLIST programa id CDATA #REQUIRED>
+<!ELEMENT nombrePrograma (#PCDATA)>
+<!ELEMENT presentador (nombrePresentador, apellidosPresentador)>
+<!ELEMENT nombrePresentador (#PCDATA)>
+<!ELEMENT apellidosPresentador (#PCDATA)>
+<!ELEMENT horario (#PCDATA)>
+<!ELEMENT nivelDeAudiencia (#PCDATA)>
+<!ELEMENT contenidos (telediarioMatinal?)>
+<!ELEMENT telediarioMatinal (presentadorNoticias+, director?)>
+<!ELEMENT presentadorNoticias (nombrePresentador, apellidosPresentador, horario)>
+<!ELEMENT director ((nombreDirector | nombreDirectora), (apellidosDirector | apellidosDirectora))>
+<!ELEMENT nombreDirector (#PCDATA)>
+<!ELEMENT nombreDirectora (#PCDATA)>
+<!ELEMENT apellidosDirector (#PCDATA)>
+<!ELEMENT apellidosDirectora (#PCDATA)>
+

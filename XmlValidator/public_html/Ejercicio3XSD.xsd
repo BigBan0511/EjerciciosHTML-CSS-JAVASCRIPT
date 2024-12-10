@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns="https://es.wikipedia.org/wiki/El_Señor_de_los_Anillos"
+            targetNamespace="https://es.wikipedia.org/wiki/El_Señor_de_los_Anillos"
+            elementFormDefault="qualified">
+
+  <xs:element name="libro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="indice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="capitulol">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="nombre" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="capitulo2">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="nombre" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="capitulo3">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="nombre" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="capituloFinal">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="intro" type="xs:string"/>
+                    <xs:element name="nudo" type="xs:string"/>
+                    <xs:element name="desarrollo" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="nombre" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="protagonista">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="mote" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="apellido" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
